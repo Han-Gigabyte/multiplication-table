@@ -1,0 +1,19 @@
+![Language](https://img.shields.io/badge/language-c%23-9cf)
+</br>
+</br>
+using System;
+namespace Hello
+{
+    class Hello
+    {
+        static void Main()
+        {
+            string s = Console.ReadLine();
+            int a = int.Parse(s);
+            for(int i = 1; i<=9;i++)
+            {
+                Console.WriteLine("{0} * {1} = {2}",a,i,a*i);
+            }
+        }
+    }
+}
